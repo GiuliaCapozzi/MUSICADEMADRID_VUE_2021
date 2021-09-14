@@ -1,0 +1,111 @@
+.o-container {
+    @media (min-width: $md) {
+        width: 90%;
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    .o-row {
+        width: 100%; 
+        display: flex;
+        flex-wrap: wrap;
+
+        &.space-between {
+            justify-content: space-between;
+        }
+        
+        .o-col {
+            &-xs{
+                @media (min-width: $xs) {
+                    &-12 {
+                        width: 100%;
+                        flex-basis: 100%;
+                        max-width: 100%;
+                        padding: 0 15px;                        
+                    }
+                    &-6 {
+                        width: 45%;
+                        flex-basis: 45%;
+                        max-width: 45%;
+                        padding: 0 15px;  
+
+                    }
+                    &-4 {
+                        width: 30%;
+                        flex-basis: 30%;
+                        max-width: 30%;
+                        padding: 0 15px; 
+                    }
+                    &-3 {
+                        width: 22%;
+                        flex-basis: 22%;
+                        max-width: 22%;
+                        padding: 0 15px; 
+                    }
+                }
+            }
+
+            &-md {
+                @media (min-width: $md) {
+                    &-12 {
+                        width: 100%;
+                        flex-basis: 100%;
+                        max-width: 100%;
+                        padding: 0 15px;                        
+                    }
+                    &-6 {
+                        width: 45%;
+                        flex-basis: 45%;
+                        max-width: 45%;
+                        padding: 0 15px;  
+
+                    }
+                    &-4 {
+                        width: 30%;
+                        flex-basis: 30%;
+                        max-width: 30%;
+                        padding: 0 15px; 
+                    }
+                    &-3 {
+                        width: 22%;
+                        flex-basis: 22%;
+                        max-width: 22%;
+                        padding: 0 15px; 
+                    }
+                }
+
+            }
+
+            &-lg {
+                @media (min-width: $lg) {
+                    &-12 {
+                        width: 100%;
+                        flex-basis: 100%;
+                        max-width: 100%;
+                        padding: 0 15px;                        
+                    }
+                    &-6 {
+                        width: 45%;
+                        flex-basis: 45%;
+                        max-width: 45%;
+                        padding: 0 15px;  
+
+                    }
+                    &-4 {
+                        width: 30%;
+                        flex-basis: 30%;
+                        max-width: 30%;
+                        padding: 0 15px; 
+                    }
+                    &-3 {
+                        width: 22%;
+                        flex-basis: 22%;
+                        max-width: 22%;
+                        padding: 0 15px; 
+                    }
+                }
+
+            }
+        }
+    }
+}

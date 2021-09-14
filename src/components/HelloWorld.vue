@@ -1,7 +1,7 @@
 <template>
-  <div class="hello">
+  <div class="c-hello">
     <h1>{{ msg }}</h1>
-    <p>
+    <p class="c-hello__text">
       Musicademadrid.es Nuevo frontend VUEJS - maquetación y componentes
     </p>
     
@@ -23,18 +23,41 @@ export default Vue.extend({
 <style scoped lang="scss">
 @import '../scss/styles';
 
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-  li {
-    display: inline-block;
-    margin: 0 10px;
+.c-hello {  
+  background-color: $bg-secondary;
+  margin: 15px;
+  @media (min-width: $md) {    
+    width: 50%;
+    margin: 0 auto;
   }
-}
-a {
-  color: $button-primary-color;
+  box-shadow: $shadow-1;
+  border-radius: 4px;
+  padding: 20px;
+
+  h1 {
+    font-size: 1rem;
+    @media (min-width: $md) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    font-size: 14px;
+    @media (min-width: $md) {
+      font-size: 1rem;
+    }
+  }
+
+  h3 {
+    margin: 40px 0 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
 }
 </style>
