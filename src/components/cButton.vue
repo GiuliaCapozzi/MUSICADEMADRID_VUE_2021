@@ -24,6 +24,7 @@ export default Vue.extend({
 <style lang="scss" scoped>
 @import '../scss/styles';
 .c-button {
+    text-transform: uppercase;
     margin: 5px;
     display: inline-block;
     font-weight: 400;

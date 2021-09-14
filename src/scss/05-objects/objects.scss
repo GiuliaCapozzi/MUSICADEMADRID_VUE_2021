@@ -5,6 +5,10 @@
         margin: 0 auto;
     }
 
+    @media (max-width: $max-sm) {
+        padding: 15px;
+    }
+
     .o-row {
         width: 100%; 
         display: flex;
@@ -13,7 +17,7 @@
         &.space-between {
             justify-content: space-between;
         }
-        
+
         .o-col {
             &-xs{
                 @media (min-width: $xs) {
