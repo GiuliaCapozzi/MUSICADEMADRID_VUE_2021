@@ -6,11 +6,11 @@
     <div class="o-container u-mt-2">          
       <cTitle title="Círculos home page artistas" subtitle="" modify="c-title--left" /> 
       <div class="o-row space-between"> 
-        <cArtistCircle img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="Yung Beef" modify="c-artist-circle--w-33" link="https://google.com" />
+        <cArtistCircle enlace="#" img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="Yung Beef" modify="c-artist-circle--w-33" link="https://google.com" />
             
-        <cArtistCircle img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="Cinco chicos que hacen música" modify="c-artist-circle--w-33" link="https://google.com" />
+        <cArtistCircle enlace="#" img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="Cinco chicos que hacen música" modify="c-artist-circle--w-33" link="https://google.com" />
             
-        <cArtistCircle img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="C. Tangana" modify="c-artist-circle--w-33" link="https://google.com" />
+        <cArtistCircle enlace="#" img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="C. Tangana" modify="c-artist-circle--w-33" link="https://google.com" />
       </div>      
     </div>
     <div class="o-container u-mt-2">           
@@ -18,11 +18,11 @@
       <div class="o-row">
           <div class="o-col-xs-12 u-text-left"> 
 
-            <cButton modify="c-button--primary" text="Primary button" />
+            <cButton enlace="#" modify="c-button--primary" text="Primary button" />
 
-            <cButton modify="c-button--secondary" text="Secondary button" />
+            <cButton enlace="#" modify="c-button--secondary" text="Secondary button" />
 
-            <cButton modify="c-button--success" text="Success button" />
+            <cButton enlace="#" modify="c-button--success" text="Success button" />
           </div>
       </div>      
     </div>

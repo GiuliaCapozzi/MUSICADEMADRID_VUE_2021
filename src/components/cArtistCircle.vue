@@ -2,10 +2,10 @@
   <div :class="[componentClass, modify]">
       <div class="c-artist-circle__wrapper">
           <div class="c-artist-circle__img">
-              <a href="#"><img :src="img" :alt="alt" class="c-artist-circle__img-img"></a>
+              <a :href="enlace"><img :src="img" :alt="alt" class="c-artist-circle__img-img"></a>
           </div>
           <div class="c-artist-circle__name">              
-              <h3><a href="#">{{ name }}</a></h3>
+              <h3><a :href="enlace">{{ name }}</a></h3>
           </div>
       </div>
   </div>
@@ -20,7 +20,8 @@ export default Vue.extend({
     img: String,
     alt: String,
     name: String,
-    modify: String
+    modify: String,
+    enlace: String
   },
   data() {
     return {      

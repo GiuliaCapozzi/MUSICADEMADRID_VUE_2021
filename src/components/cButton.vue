@@ -1,5 +1,5 @@
 <template>
-  <a href="#" :class="[componentClass, modify]">
+  <a :href="enlace" :class="[componentClass, modify]">
       {{ text }}
   </a>
 </template>
@@ -11,7 +11,8 @@ export default Vue.extend({
   name: 'cButton',
   props: {
     text: String,
-    modify: String
+    modify: String,
+    enlace: String
   },
   data() {
     return {      
