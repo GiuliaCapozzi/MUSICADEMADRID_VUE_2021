@@ -8,3 +8,17 @@
 .u-text-left {
     text-align: left;
 }
+
+.u-flex-column {
+    flex-direction: column;
+    &-sm {
+        @media (max-width: $max-sm) {
+            flex-direction: column;
+        }
+    }
+    &-md {
+        @media (max-width: $max-md) {
+            flex-direction: column;
+        }
+    }
+}
