@@ -28,8 +28,7 @@
     </div>
     <div class="o-container u-mt-2">
       <cTitle title="Cuadrículas géneros y artistas" subtitle="" modify="c-title--left" /> 
-      <div class="o-row u-flex-column-md">
-        cambio
+      <div class="o-row u-flex-column-md">        
             
             <cSongSquare enlace="#" name="Cinco chicos que hacen música" genre="Rap/HipHop" img="https://musicademadrid.es/img/ira.jpg" />  
                 

@@ -5,8 +5,21 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
+    <cNavbar />
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import cNavbar from '@/components/cNavbar.vue';
+
+export default {
+  name: 'app',
+  components: {
+    cNavbar
+  }
+}
+</script>
 
 <style lang="scss">
 
