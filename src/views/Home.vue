@@ -3,14 +3,12 @@
     <img alt="Vue logo" class="logo-img" src="../assets/logo-no-font.svg">
 
     <HelloWorld msg="Bienvenido al futuro de musicademadrid"/>
-    <div class="o-container u-mt-2 animate__animated animate__fadeInUp">          
+    <div class="o-container u-mt-2">          
       <cTitle title="Círculos home page artistas" subtitle="" modify="c-title--left" /> 
       <div class="o-row space-between"> 
-        <cArtistCircle enlace="#" img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="Yung Beef" modify="c-artist-circle--w-33" link="https://google.com" />
-            
-        <cArtistCircle enlace="#" img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="Cinco chicos que hacen música" modify="c-artist-circle--w-33" link="https://google.com" />
-            
-        <cArtistCircle enlace="#" img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="C. Tangana" modify="c-artist-circle--w-33" link="https://google.com" />
+        <div class="o-container">
+          <cCarousel />
+        </div>
       </div>      
     </div>
     <div class="o-container u-mt-2">           
@@ -46,18 +44,18 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue';
 import cTitle from '@/components/cTitle.vue';
-import cArtistCircle from '@/components/cArtistCircle.vue';
 import cButton from '@/components/cButton.vue';
 import cSongSquare from '@/components/cSongSquare.vue';
+import cCarousel from '@/components/cCarousel.vue';
 
 export default {
   name: 'Home',
   components: {
     HelloWorld,
     cTitle,
-    cArtistCircle,
     cButton,
-    cSongSquare
+    cSongSquare,
+    cCarousel
   }
 }
 </script>
