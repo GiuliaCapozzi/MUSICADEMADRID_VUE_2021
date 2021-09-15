@@ -37,14 +37,33 @@
             <cSongSquare enlace="#" name="Cinco chicos que hacen música" genre="Rap/HipHop" img="https://musicademadrid.es/img/ira.jpg" />  
       </div>      
     </div>
-    <div class="o-container">
+    <div class="o-container u-add-mt">
       <div class="o-row">        
         <div class="o-col-xs-12 o-col-md-4 u-pad-0">
             <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
-        <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
-        <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
-        <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
-        <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
+            <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
+            <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
+            <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
+            <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
+        </div>
+        <div class="o-col-xs-12 o-col-md-9">
+          <cSearchInput placeholder="BUSCA UN ARTISTA O GRUPO" />
+          <cMusicListCard href="#" text="Título de una canción" />
+
+        </div>
+      </div>
+    </div>
+    <div class="o-container u-mt-2">
+      <div class="o-row">
+        <div class="o-col-xs-12 u-pad-0">
+          <cSearchInput placeholder="BUSCA UN ARTISTA O GRUPO" />
+        </div>
+      </div>
+    </div>
+    <div class="o-container u-mt-2">
+      <div class="o-row">
+        <div class="o-col-xs-12 u-pad-0">
+          <cMusicListCard href="#" text="Título de una canción" />
         </div>
       </div>
     </div>
@@ -59,6 +78,8 @@ import cButton from '@/components/cButton.vue';
 import cSongSquare from '@/components/cSongSquare.vue';
 import cCarousel from '@/components/cCarousel.vue';
 import cGenreCard from '@/components/cGenreCard.vue';
+import cSearchInput from '@/components/cSearchInput.vue';
+import cMusicListCard from '@/components/cMusicListCard.vue';
 
 export default {
   name: 'Home',
@@ -68,7 +89,9 @@ export default {
     cButton,
     cSongSquare,
     cCarousel,
-    cGenreCard
+    cGenreCard,
+    cSearchInput,
+    cMusicListCard
   }
 }
 </script>
