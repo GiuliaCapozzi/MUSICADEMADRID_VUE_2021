@@ -46,24 +46,19 @@
             <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
             <cGenreCard href="#" img="https://musicademadrid.es/img/estilos/trap.png" alt="Trap" name="Trap" />
         </div>
-        <div class="o-col-xs-12 o-col-md-9">
+        <div class="o-col-xs-12 o-col-md-9 u-mt-10">
           <cSearchInput placeholder="BUSCA UN ARTISTA O GRUPO" />
+          <cMusicListCard href="#" text="Título de una canción" />
+          <cMusicListCard href="#" text="Título de una canción" />
+          <cMusicListCard href="#" text="Título de una canción" />
+          <cMusicListCard href="#" text="Título de una canción" />
+          <cMusicListCard href="#" text="Título de una canción" />
+          <cMusicListCard href="#" text="Título de una canción" />
+          <cMusicListCard href="#" text="Título de una canción" />
+          <cMusicListCard href="#" text="Título de una canción" />
+          <cMusicListCard href="#" text="Título de una canción" />
           <cMusicListCard href="#" text="Título de una canción" />
 
-        </div>
-      </div>
-    </div>
-    <div class="o-container u-mt-2">
-      <div class="o-row">
-        <div class="o-col-xs-12 u-pad-0">
-          <cSearchInput placeholder="BUSCA UN ARTISTA O GRUPO" />
-        </div>
-      </div>
-    </div>
-    <div class="o-container u-mt-2">
-      <div class="o-row">
-        <div class="o-col-xs-12 u-pad-0">
-          <cMusicListCard href="#" text="Título de una canción" />
         </div>
       </div>
     </div>

@@ -26,6 +26,7 @@ export default Vue.extend({
     @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto+Mono:wght@200&family=Turret+Road:wght@300&display=swap');
     @import '../scss/styles';
   .c-music-list-card {
+      margin-top: 10px;
       display: block;
       width: 100%;
       text-align: left;
