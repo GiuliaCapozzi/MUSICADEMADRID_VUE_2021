@@ -1,5 +1,5 @@
 <template>
-  <div class="home animate__animated animate__fadeInUp" id="start">
+  <div class="home animate__animated animate__fadeIn" id="start">
     <img alt="Vue logo" class="logo-img" src="../assets/logo-no-font.svg">
     <div class="o-container u-mt-2">          
       <cTitle title="Artistas de Madrid" subtitle="" modify="c-title--left" /> 
