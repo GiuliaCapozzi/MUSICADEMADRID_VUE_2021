@@ -16,7 +16,8 @@ export default Vue.extend({
     name: String,
     img: String,
     alt: String,
-    href: String
+    href: String,
+    modify: String
   },
   data() {
     return {      
@@ -35,8 +36,20 @@ export default Vue.extend({
         display: inline-block;
         margin: 10px 0;
         transition: all .3s ease-in-out;
+        @media (max-width: $max-sm) {
+          width: 45%;
+          text-align: center;
+          margin: 8px;
+          display: inline-block;
+          line-height: 6px;
+        }
 
         img {
+            @media (max-width: $max-sm) {
+              width: 60px;
+              height: 60px;
+            }
+
             width: 30%;
             display: inline-block;
         }
@@ -49,6 +62,18 @@ export default Vue.extend({
 
         &:hover {
             box-shadow: $shadow-1;
+        }
+
+        &--w-25 {
+          h3{
+            font-size: .8rem;
+          }
+          @media (min-width: $md) {
+            width: 10%;
+            flex-basis: 10%;
+            max-width: 10%;
+            margin-right: 8px;
+          }
         }
     }
 </style>

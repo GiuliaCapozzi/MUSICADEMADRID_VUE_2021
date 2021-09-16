@@ -1,6 +1,7 @@
 .o-container {
     @media (max-width: $max-sm) {
         max-width: 100%;
+        width: 100%;
     }
     @media (min-width: $md) {
         width: 90%;

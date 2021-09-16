@@ -63,6 +63,7 @@ export default Vue.extend({
 
         &__name {
             h3 {
+                text-align: center;
                 a {
                     font-size: 14px;
                     text-decoration: none;

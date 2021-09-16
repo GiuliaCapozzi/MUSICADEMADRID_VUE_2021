@@ -3,12 +3,12 @@
       <nav class="c-navbar__wrapper" role="navigation">
           <ul>
               <li v-for="item of menuElements" :key="item.id">
-                <a :href="item.link" :title="item.name">
+                <router-link :to="item.link" :title="item.name">
                     <i :class="item.icon"></i>
                     <span class="c-navbar__mbl-text">
                         {{ item.name }}
                     </span>
-                </a>
+                </router-link>
               </li>
           </ul>
       </nav>
@@ -30,21 +30,21 @@ export default Vue.extend({
           {
             name: 'Home',
             icon: 'fas fa-home',
-            link: '#'
+            link: '/'
           },
           {
-            name: 'Explore',
+            name: 'Explora',
             icon: 'fas fa-search',
+            link: '/explora'
+          },
+          {
+            name: 'Escucha',
+            icon: 'fas fa-headphones',
             link: '#'
           },
           {
-            name: 'News',
-            icon: 'fas fa-bell',
-            link: '#'
-          },
-          {
-            name: 'Listen',
-            icon: 'fas fa-play',
+            name: 'Agrega',
+            icon: 'fas fa-plus',
             link: '#'
           }
       ]

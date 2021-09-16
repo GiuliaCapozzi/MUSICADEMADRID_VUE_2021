@@ -1,5 +1,9 @@
 <template>
-  <a :href="enlace" :class="[componentClass, modify]">
+  
+  <router-link v-if="isRouter" :to="enlace" :class="[componentClass, modify]">
+      {{ text }}
+  </router-link>
+  <a v-else :href="enlace" :class="[componentClass, modify]">
       {{ text }}
   </a>
 </template>
@@ -12,7 +16,8 @@ export default Vue.extend({
   props: {
     text: String,
     modify: String,
-    enlace: String
+    enlace: String,
+    isRouter: Boolean
   },
   data() {
     return {      
@@ -59,6 +64,10 @@ export default Vue.extend({
         background-color: $success-green;
         color: $white;
         text-decoration: none;
+    }
+
+    &--w-100 {
+      width: 100%;
     }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div :class="[componentClass, modify]">      
-        <carousel :navigationEnabled="true" :paginationColor="'#fff'" :navigationClickTargetSize="0" :paginationEnabled="false" :perPageCustom="[[200, 3], [768, 3], [1024, 3]]" :autoplay="true" :autoplayTimeout="3000" :autoplayHoverPause="false" :centerMode="true" :loop="true">
+        <carousel :navigationEnabled="false" :paginationColor="'#fff'" :navigationClickTargetSize="0" :paginationEnabled="true" :perPageCustom="[[200, 3], [768, 3], [1024, 4]]" :autoplay="true" :autoplayTimeout="3000" :autoplayHoverPause="false" :centerMode="true" :loop="true">
 
             <slide>            
                  <cArtistCircle enlace="#" img="https://musicademadrid.es/img/ybeef.jpg" alt="Yung Beef" name="C. Tangana" link="https://google.com" />
